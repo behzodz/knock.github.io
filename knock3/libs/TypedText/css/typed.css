@@ -1,0 +1,30 @@
+.box {
+    height: 100%;
+    position: relative;
+  }
+  .box .top-text {
+    position: relative;
+    text-align: left;
+  }
+  
+  .box .top-text h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  /* cursor */ 
+  
+  #typing {
+    font-weight: 400;
+  }
+  
+  .typed-cursor{
+      opacity: 1;
+      font-weight: 200;
+      animation: blink 0.7s infinite;
+  }
+  @keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
